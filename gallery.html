@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="heroes.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"  />
+    <title>Document</title>
+</head>
+<body>
+  <style>
+    body{
+      background-image: url(img/unsplash-photo-3.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+  
+          .overlay-dark::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0,0,0, 0,5);
+            z-index: 1;
+          }
+  </style>
+    <!--Navbar-->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">PT. Herbal Tea</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="Gallery.html" tabindex="-1" aria-disabled="true">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Login.html">Log Out</a>
+                </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+    <!--Akhir Navbar-->
+
+    <!--Carousel-->
+      <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" >
+            <div class="overlay-dark">
+            <img src="img/AIN.jpg" style="width: 100%" alt=""   auto;>
+            </div>
+            <div class="container">
+              <div class="carousel-caption text-lg-start">
+                <h1>Selamat Datang Di Website Herbal Tea</h1>
+                <p>Ramuan Herbal Tea tersedia disini!!</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Beranda Herbal Tea</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/DIY.jpg" style="width: 100%" alt="" auto;>
+            <div class="container">
+              <div class="carousel-caption text-lg-start">
+                <h1>Tentang Herbal Tea</h1>
+                <p>Teh herbal membuat kita menjadi akan nutrisi dibadan menjadi meningkat hingga badan menjadi 
+                  lebih sehat sepanjang hari.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Tentang Herbal Tea</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/LIT.jpg" style="width: 100%"  alt="" auto;>
+            <div class="container">
+              <div class="carousel-caption text-lg-start">
+                <h1>Galeri Herbal Tea</h1>
+                <p>Herbal Tea menyehatkan badan</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!--Akhir carousel-->
+
+    <!--Galery-->
+      <section class="galery">
+        <div class="container">
+          <div class="row text-center text-white">
+            <div class="col">
+              <h1>Gallery</h1>
+              <hr>
+            </div>
+          </div>
+          <div class="album py-5 bg-body-tertiary">
+            <div class="container">
+        
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/teh akar.jpeg" alt="gambar galery">
+                    <div class="card-body">
+                      <p class="card-text">Teh akar valerian untuk tidur nyenyak
+                        Tahap tidur nyenyak diyakini paling restoratif dan penting 
+                        untuk merasa segar di pagi hari.
+                      </p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/teh chamomile.jpeg" alt="gambar galery" height="400">
+                    <div class="card-body">
+                      <p class="card-text">Ramuan ini secara tradisional digunakan untuk mengobati masalah perut dan usus,
+                        termasuk gas, sakit perut, radang perut, dan buang air besar yang berhubungan dengan kecemasan.
+                      </p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="img/teh daun sirsak.jpeg" alt="gambar galery" height="400">
+                    <div class="card-body">
+                      <p class="card-text">Teh daun sirsak diyakini bermanfaat untuk mencegah dan mengobati penyakit kanker.
+                        Kandungan di dalam teh daun sirsak berpotensi sebagai antiperadangan. Komponen tersebut diduga dapat
+                        membantu mengatasi peradangan di dalam tubuh.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/teh jerm=ami gandu,m.jpeg" alt="gambar galery" heigth="250">
+                    <div class="card-body">
+                      <p class="card-text">Teh jerami gandum dibuat dari batang, biji, dan bunga tanaman gandum. 
+                        Ekstrak teh oat telah digunakan selama berabad-abad dalam pengobatan tradisional
+                        untuk membantu rileks, meningkatkan mood, dan mengurangi kelelahan.
+                      </p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="img/teh lavender 1.jpeg" alt="gambar galery" height="250">
+                    <div class="card-body">
+                      <p class="card-text">Teh lavender dapat bermanfaat bagi kesehatan pencernaan dan mental.
+                         Ekstrak lavender telah lama digunakan dalam aromaterapi untuk meningkatkan relaksasi, 
+                         dan penelitian menunjukkan bahwa mungkin ada manfaat kesehatan mental dari meminumnya juga.
+                      </p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="img/teh mawar.jpeg" alt="gambar galery">
+                    <div class="card-body">
+                      <p class="card-text">Selama bertahun-tahun, orang telah menambahkan kelopak mawar ke kue,
+                         selai, dan teh panas sebagai penyedap. Kelopak mawar juga merupakan sumber antioksidan
+                         yang baik seperti vitamin C, A, dan E.
+                      </p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="img/teh pepermint.jpeg" alt="gambar galery">
+                    <div class="card-body">
+                      <p class="card-text">Peppermint dapat membantu menenangkan
+                         sakit perut, meredakan sembelit, meningkatkan sistem kekebalan tubuh, meningkatkan
+                         fokus, dan mengurangi stres.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="img/teh rosemary.jpeg" alt="gambar galery">
+                    <div class="card-body">
+                      <p class="card-text">Rosemary adalah ramuan populer untuk memasak dan wewangian.
+                         Salah satu kegunaannya yang kurang umum adalah sebagai teh herbal.
+                      </p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/teh linden.jpeg" alt="gambar galery">
+                    <div class="card-body">
+                      <p class="card-text">Teh Linden dibuat dari bunga kering, daun, atau kulit pohon Linden.
+                         Secara tradisional, teh linden telah digunakan sebagai obat herbal untuk 
+                         menenangkan saraf dan mengobati kecemasan, insomnia, dan sakit kepala.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">About</a></li>
+          </ul>
+            <p class="text-center text-white">&copy; alipatuss</p>
+          </footer>
+        </div>
+          <footer class="container">
+            <footer>
+              <p class="float-end"><a href="#">Back to top</a></p>
+              <p class="text-white">&copy; 2015–2025 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+          </footer> 
+        </div>
+      </section>
+    <!--Akhir Galery-->
+      <script src="js/bootstrap.js"></script>
+  </body>
+</html>
